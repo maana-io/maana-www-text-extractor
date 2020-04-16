@@ -1,0 +1,14 @@
+# Boilerplate
+query info {
+  info {
+    id
+    name
+    version
+    description
+  }
+}
+
+# Extract text from a URL
+query extract {
+  extract(url: "https://www.sec.gov/litigation/litreleases/lr18582.htm")
+}

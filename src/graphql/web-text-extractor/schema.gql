@@ -1,0 +1,5 @@
+# Query Root
+type Query {
+  # Boilerplate
+  extract(url: String!): String!
+}
