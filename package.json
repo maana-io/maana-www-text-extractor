@@ -1,14 +1,18 @@
 {
-  "name": "maana-web-text-extractor",
+  "name": "maana-www-text-extractor",
   "author": "Maana, Inc.",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "Maana Q Knowledge Service that extracts text from web pages",
+  "description": "Given a web page URL, extract the text",
   "main": "src/start.js",
+  "engines": {
+    "node": ">=13.13.0",
+    "npm": ">=6.14.0"
+  },
   "repository": "git@github.com:maana-io/q-svc-templates.git",
   "scripts": {
-    "docker-build": "docker build -t maana-web-text-extractor .",
-    "docker-run": "docker run -p 8050:8050 maana-web-text-extractor",
+    "docker-build": "docker build -t maana-www-text-extractor .",
+    "docker-run": "docker run -p 8050:8050 maana-www-text-extractor",
     "precommit": "lint-staged",
     "prettier": "./node_modules/.bin/prettier --write \"src/**/*.{js,jsx}\"",
     "start": "babel-node ./src/start.dev.js",

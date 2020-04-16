@@ -1,6 +1,6 @@
 # Maana Web Text Extractor
 
-GraphQL wrapper around the Java-based [boilerplate]() library using the JavaScript wrapper, [boilerplate-scraper]().
+GraphQL wrapper around the Java-based [boilerplate](https://github.com/kohlschutter/boilerpipe) library using the JavaScript wrapper, [boilerplate-scraper](https://github.com/warlock/boilerpipe-scraper).
 
 ## Example Usage
 
